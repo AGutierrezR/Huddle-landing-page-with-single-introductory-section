@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.25rem;
+
+  &__image {
+    margin-bottom: 3.375rem;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+  }
+
+  &__lead {
+    line-height: 1.46;
+    margin-bottom: 1.375rem;
+  }
+
+  &__cta {
+    color: var(--clr-violet);
+    background-color: var(--clr-white);
+  }
+}

@@ -9,8 +9,4 @@
   a {
     color: hsl(0, 0%, 100%);
   }
-
-  @include media-breakpoint('desktop') {
-    display: block;
-  }
 }
