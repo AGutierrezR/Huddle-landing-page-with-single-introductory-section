@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://github.com/AGutierrezR/Huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [Live Site](https://agutierrezr.github.io/Huddle-landing-page-with-single-introductory-section/)
 
 ### Built with
 
