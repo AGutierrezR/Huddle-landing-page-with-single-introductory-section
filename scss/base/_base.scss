@@ -9,6 +9,5 @@ body {
 
   @include media-breakpoint('desktop') {
     background-image: url(../images/bg-desktop.svg);
-    background-size: cover;
   }
 }

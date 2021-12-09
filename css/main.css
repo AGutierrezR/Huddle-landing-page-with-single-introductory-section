@@ -115,7 +115,6 @@ body {
 @media only screen and (min-width: 1440px) {
   body {
     background-image: url(../images/bg-desktop.svg);
-    background-size: cover;
   }
 }
 
@@ -258,6 +257,7 @@ h1 {
   --fs-btn: 0.75rem;
   display: inline-block;
   font-size: var(--fs-small);
+  font-family: var(--ff-heading);
   text-decoration: none;
   padding: 0.75rem 4.75rem;
   border-radius: 20px;
