@@ -1,3 +1,5 @@
+@use '../abstracts/index.scss' as *;
+
 .social-links {
   display: flex;
   justify-content: center;
@@ -20,5 +22,22 @@
 
   svg {
     height: var(--fs-body);
+  }
+
+  @include media-breakpoint('desktop') {
+    justify-content: end;
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    gap: 16px;
+
+    a {
+      --size: 40px;
+    }
+
+    svg {
+      height: var(--fs-body);
+    }
   }
 }
